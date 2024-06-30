@@ -1,5 +1,25 @@
+/*
+    sudo apt-get update
+sudo apt-get install -y libboost-all-dev
+
+g++ -o server server.cpp -lboost_system -lboost_thread -pthread
+./server
+
+*/
+
+
+
+
+
+
+
+
+
+
 #include <iostream>
 #include <boost/asio.hpp>
+using namespace std;
+// using namespace boost;
 
 using boost::asio::ip::tcp;
 
